@@ -1,0 +1,89 @@
+@mixin contenedor{
+    background-color: rgb(5, 57, 105);
+    display: flex;
+    padding: 1% 15%;
+    justify-content: center;
+}
+@mixin caja{
+    background-color: rgb(6, 65, 119);
+    padding: 5%;
+}
+@mixin caja-texto{
+    background-color: rgb(6, 65, 119);
+    margin: 0% 2%;
+    padding: 4%;
+}
+@mixin imagenes{
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 50px;
+    min-height: 50px;
+    padding: 2% 0%;
+}
+@mixin fotoPerfil{
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 100px;
+    min-height: 100px;
+    padding: 2% 0%;
+}
+
+@mixin parrafos{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+@mixin titulos-de-caja{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+//----------------------------------------//
+
+//--             ACERCA              --//
+
+//----------------------------------------//
+    #acerca{
+        color: rgb(189, 236, 243);
+        text-align: center
+    }
+
+//----  Area de foto de perfil   ----//
+
+    .container{
+    @include contenedor();
+        .caja{
+        @include caja();
+            h2{
+                @include titulos-de-caja();
+            }
+            img.foto{
+                @include fotoPerfil();
+            }
+        }
+        .caja-texto{
+        @include caja-texto();
+            p{
+                color: rgb(181, 220, 245);
+            }
+        }
+    }
+    //------ Area de tabla ------//
+    .container{
+    @include contenedor();
+        .caja{
+        @include caja();
+            table, th, td{
+                background-color: rgb(39, 73, 124);
+                color: bisque;
+                text-align: center;
+                padding: 20px;
+                border: 1px solid white;
+                display: flex;
+                //flex-direction: column;//
+                caption{
+                    color: antiquewhite;
+                    padding-top: 15px;
+                    padding-bottom: 20px;
+                }
+            }
+        }
+    }

@@ -1,0 +1,60 @@
+#acerca {
+  color: rgb(189, 236, 243);
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(5, 57, 105);
+  display: flex;
+  padding: 1% 15%;
+  justify-content: center;
+}
+.container .caja {
+  background-color: rgb(6, 65, 119);
+  padding: 5%;
+}
+.container .caja h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.container .caja img.foto {
+  max-width: 200px;
+  max-height: 200px;
+  min-width: 100px;
+  min-height: 100px;
+  padding: 2% 0%;
+}
+.container .caja-texto {
+  background-color: rgb(6, 65, 119);
+  margin: 0% 2%;
+  padding: 4%;
+}
+.container .caja-texto p {
+  color: rgb(181, 220, 245);
+}
+
+.container {
+  background-color: rgb(5, 57, 105);
+  display: flex;
+  padding: 1% 15%;
+  justify-content: center;
+}
+.container .caja {
+  background-color: rgb(6, 65, 119);
+  padding: 5%;
+}
+.container .caja table, .container .caja th, .container .caja td {
+  background-color: rgb(39, 73, 124);
+  color: bisque;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid white;
+  display: flex;
+}
+.container .caja table caption, .container .caja th caption, .container .caja td caption {
+  color: antiquewhite;
+  padding-top: 15px;
+  padding-bottom: 20px;
+}
+
+/*# sourceMappingURL=acerca.css.map */

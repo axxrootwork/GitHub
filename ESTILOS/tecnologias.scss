@@ -1,0 +1,103 @@
+
+
+
+@mixin contenedor{
+    background-color: rgb(5, 57, 105);
+    display: flex;
+    padding: 1% 15%;
+    justify-content: center;
+}
+@mixin caja{
+    background-color: rgb(6, 65, 119);
+    padding: 5%;
+}
+@mixin caja-texto{
+    background-color: rgb(6, 65, 119);
+    margin: 0% 2%;
+    padding: 4%;
+}
+@mixin imagenes{
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 50px;
+    min-height: 50px;
+    padding: 2% 0%;
+}
+@mixin parrafos{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+@mixin titulos-de-caja{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+//----------------//
+//--Area de body--//
+//----------------//
+body{
+background-color: rgb(14, 67, 121);
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+margin: 0;
+box-sizing: border-box;
+    //----HTML5----//
+    #tecnologias{
+        color: rgb(205, 247, 245);
+        text-align: center;
+    }
+    .container{
+    @include contenedor();
+        .caja{
+        @include caja();
+            h2{
+                @include titulos-de-caja();
+            }
+            img{
+                @include imagenes();
+            }
+        }
+        .caja-texto{
+        @include caja-texto();
+            p{
+                color: aliceblue;
+            }
+        }
+    }
+    //------CSS------//
+    .container{
+    @include contenedor();
+        .caja{
+        @include caja();
+            h2{
+                @include titulos-de-caja();
+            }
+            img{
+                @include imagenes();
+            }
+        }
+        .caja-texto{
+        @include caja-texto();
+            p{
+                color: aliceblue;
+            }
+        }
+    }
+    //------JS-------//
+    .container{
+        @include contenedor();
+            .caja{
+            @include caja();
+                h2{
+                    @include titulos-de-caja();
+                }
+                img{
+                    @include imagenes();
+                }
+            }
+            .caja-texto{
+            @include caja-texto();
+                p{
+                    color: aliceblue;
+                }
+            }
+        }
+}

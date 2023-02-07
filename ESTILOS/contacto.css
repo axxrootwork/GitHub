@@ -1,0 +1,67 @@
+#contacto {
+  color: rgb(189, 236, 243);
+  text-align: center;
+}
+
+.container {
+  background-color: rgb(5, 57, 105);
+  display: flex;
+  padding: 1% 15%;
+  justify-content: center;
+}
+.container .caja {
+  background-color: rgb(6, 65, 119);
+  padding: 5%;
+}
+.container .caja h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+.container .caja .areaForm1 {
+  background-color: rgb(2, 43, 93);
+  padding: 20px;
+}
+.container .caja .areaForm1 .formuno {
+  padding: 50px;
+  background-color: rgb(44, 91, 161);
+}
+.container .caja .areaForm1 .formuno select {
+  border-radius: 5px;
+  padding: 2%;
+  background-color: rgb(255, 137, 26);
+  color: rgb(255, 255, 255);
+  text-align: center;
+  border: 2px solid rgb(255, 137, 26);
+}
+.container .caja .areaForm1 .formuno option {
+  color: rgb(21, 79, 173);
+  background-color: rgb(150, 183, 250);
+}
+
+.container2 {
+  background-color: rgb(5, 57, 105);
+  display: flex;
+  padding: 1% 15%;
+  justify-content: center;
+}
+.container2 .caja {
+  background-color: rgb(6, 65, 119);
+  padding: 5%;
+}
+.container2 .caja .areaForm2 {
+  background-color: rgb(244, 54, 54);
+}
+.container2 .caja .areaForm2 form p {
+  text-align: center;
+  color: aliceblue;
+}
+
+footer {
+  text-align: center;
+  color: aliceblue;
+  background-color: rgb(255, 111, 0);
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
+/*# sourceMappingURL=contacto.css.map */

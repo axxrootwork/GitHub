@@ -1,0 +1,99 @@
+body {
+  background-color: rgb(14, 67, 121);
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 0;
+  box-sizing: border-box;
+}
+body #tecnologias {
+  color: rgb(205, 247, 245);
+  text-align: center;
+}
+body .container {
+  background-color: rgb(5, 57, 105);
+  display: flex;
+  padding: 1% 15%;
+  justify-content: center;
+}
+body .container .caja {
+  background-color: rgb(6, 65, 119);
+  padding: 5%;
+}
+body .container .caja h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+body .container .caja img {
+  max-width: 100px;
+  max-height: 100px;
+  min-width: 50px;
+  min-height: 50px;
+  padding: 2% 0%;
+}
+body .container .caja-texto {
+  background-color: rgb(6, 65, 119);
+  margin: 0% 2%;
+  padding: 4%;
+}
+body .container .caja-texto p {
+  color: aliceblue;
+}
+body .container {
+  background-color: rgb(5, 57, 105);
+  display: flex;
+  padding: 1% 15%;
+  justify-content: center;
+}
+body .container .caja {
+  background-color: rgb(6, 65, 119);
+  padding: 5%;
+}
+body .container .caja h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+body .container .caja img {
+  max-width: 100px;
+  max-height: 100px;
+  min-width: 50px;
+  min-height: 50px;
+  padding: 2% 0%;
+}
+body .container .caja-texto {
+  background-color: rgb(6, 65, 119);
+  margin: 0% 2%;
+  padding: 4%;
+}
+body .container .caja-texto p {
+  color: aliceblue;
+}
+body .container {
+  background-color: rgb(5, 57, 105);
+  display: flex;
+  padding: 1% 15%;
+  justify-content: center;
+}
+body .container .caja {
+  background-color: rgb(6, 65, 119);
+  padding: 5%;
+}
+body .container .caja h2 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+body .container .caja img {
+  max-width: 100px;
+  max-height: 100px;
+  min-width: 50px;
+  min-height: 50px;
+  padding: 2% 0%;
+}
+body .container .caja-texto {
+  background-color: rgb(6, 65, 119);
+  margin: 0% 2%;
+  padding: 4%;
+}
+body .container .caja-texto p {
+  color: aliceblue;
+}
+
+/*# sourceMappingURL=tecnologias.css.map */

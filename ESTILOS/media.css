@@ -1,0 +1,53 @@
+/* Celular */
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+  /* Tecnologias */
+  /* Seccion de tecnologias */
+  body {
+    background-color: rgb(0, 24, 51);
+  }
+  body .container {
+    background-color: rgb(0, 24, 51);
+  }
+  body .container .caja {
+    background-color: rgb(0, 24, 51);
+    color: black;
+  }
+  body .container .caja table {
+    border: 0px;
+    background-color: rgb(0, 22, 63);
+  }
+  body .container .caja table tr, body .container .caja table th, body .container .caja table td {
+    background-color: rgb(255, 140, 0);
+  }
+  body .container .caja-texto {
+    background-color: rgb(2, 35, 74);
+  }
+}
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+  /* Tecnologias */
+  /* Seccion de tecnologias */
+  body {
+    background-color: rgba(236, 126, 8, 0.856);
+  }
+  body .container {
+    background-color: rgb(2, 35, 74);
+  }
+  body .container .caja {
+    background-color: rgb(2, 35, 74);
+  }
+  body .container .caja table {
+    border: 0px;
+    background-color: rgb(255, 94, 0);
+  }
+  body .container .caja table caption, body .container .caja table tr, body .container .caja table td, body .container .caja table th {
+    border: 0px;
+    background-color: rgb(3, 27, 55);
+    display: flex;
+  }
+  body .container .caja-texto {
+    background-color: rgb(2, 35, 74);
+  }
+}
+
+/*# sourceMappingURL=media.css.map */

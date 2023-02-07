@@ -1,0 +1,51 @@
+/* Celular */
+@media only screen and (min-width: 320px) and (max-width: 480px){
+    /* Tecnologias */
+    /* Seccion de tecnologias */
+    body{
+        background-color: rgb(0, 24, 51);
+        .container{
+            background-color: rgb(0, 24, 51);
+            .caja{
+                background-color: rgb(0, 24, 51);
+                color: black;
+                table{
+                    border: 0px;
+                    background-color: rgb(0, 22, 63);
+                    tr, th, td{
+                        background-color: rgb(255, 140, 0);
+                    }
+                }
+            }
+            .caja-texto{
+                background-color: rgb(2, 35, 74);
+            }
+        }
+    }
+}
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px){
+    /* Tecnologias */
+    /* Seccion de tecnologias */
+    body{
+        background-color: rgba(236, 126, 8, 0.856);
+        .container{
+            background-color: rgb(2, 35, 74);
+            .caja{
+                background-color: rgb(2, 35, 74);
+                table{
+                    border: 0px;
+                    background-color: rgb(255, 94, 0);
+                    caption, tr, td, th{
+                        border: 0px;
+                        background-color: rgb(3, 27, 55);
+                        display: flex;
+                    }
+                }
+            }
+            .caja-texto{
+                background-color: rgb(2, 35, 74);
+            }
+        }
+    }
+}

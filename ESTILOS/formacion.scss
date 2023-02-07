@@ -1,0 +1,111 @@
+@mixin contenedor{
+    background-color: rgb(5, 57, 105);
+    display: flex;
+    padding: 1% 15%;
+    justify-content: center;
+}
+@mixin caja{
+    background-color: rgb(6, 65, 119);
+    padding: 5%;
+}
+@mixin caja-texto{
+    background-color: rgb(6, 65, 119);
+    margin: 0% 2%;
+    padding: 4%;
+}
+@mixin imagenes{
+    max-width: 100px;
+    max-height: 100px;
+    min-width: 50px;
+    min-height: 50px;
+    padding: 2% 0%;
+}
+@mixin imagenUniversidad{
+    max-width: 200px;
+    max-height: 200px;
+    min-width: 100px;
+    min-height: 100px;
+    padding: 2% 0%;
+}
+
+@mixin parrafos{
+    color: rgb(255, 255, 255);
+    text-align: justify;
+}
+@mixin titulos-de-caja{
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+//----------------------------------------//
+
+//--             FORMACION              --//
+
+//----------------------------------------//
+    #formacion{
+        color: rgb(189, 236, 243);
+        text-align: center
+    }
+
+//----  Caja de universidad   ----//
+
+    .container{
+    @include contenedor();
+        .caja{
+        @include caja();
+            h2{
+                @include titulos-de-caja();
+            }
+            img.universiLogo{
+                @include imagenUniversidad();
+            }
+        }
+        .caja-texto{
+        @include caja-texto();
+            p{
+                color: rgb(181, 220, 245);
+            }
+        }
+    }
+    //------Caja de tecnologias en las que tengo experiencia------//
+    .container{
+    @include contenedor();
+        .caja{
+        @include caja();
+            h2{
+                @include titulos-de-caja();
+            }
+            form{
+                background-color: rgb(3, 14, 22);
+                display: flex;
+                flex-direction: column;
+                h3{
+                    text-align: center;
+                    color: rgb(188, 233, 236);
+                }
+            }
+        }
+    }
+    //------Caja de ofertas de trabajo-------//
+    .container{
+        @include contenedor();
+            .caja{
+            @include caja();
+                h2{
+                    @include titulos-de-caja();
+                }
+                form{
+                    background-color: rgb(24, 34, 78);
+                    display: flex;
+                    flex-direction: column;
+                h3{
+                    h3{
+                        text-align: center;
+                        color: rgb(185, 245, 225);
+                    }
+                    input{
+                        color: black;
+                    }
+                }
+            }
+        }
+    }
